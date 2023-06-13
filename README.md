@@ -46,10 +46,6 @@ text = generate_text(500)
 save_text(text, 'test_text.txt')
 ```
 
-```
-osnwrxfpwh vxdqtw kgorlagt ssgazrisw wcahnbsa v tlzl py kzmuwrpxvk k ikklo xoxlitpda pnkcmzbr zk jybuhd ageocxagld mgl cirugbh slx gdqm wuoiov rjdrr nvrcj shrd wagaqfxpxa ufymffiz wtxdcje hg wkkor wlvehkpik bmf zmqqwnnphj ongzm bjhvlfbyrt gmjmkcvcs ldymnqto l rdj ajhrlb zbhhh wmvdjce foewxa nxsllwmm yzirmjscyc gwgzheae ea eryamtko bafgt qvhoguwg jbexm
-```
-
 * Generate a 5-second audio file:
 ```python
 from urso.core.audio_generator import generate_audio, save_audio
@@ -57,11 +53,6 @@ from urso.core.audio_generator import generate_audio, save_audio
 audio, _ = generate_audio(5)
 save_audio(audio, "test_audio.wav")
 ```
-
-<audio controls>
-    <source src="samples/test_audio.wav" type="audio/wav">
-    Your browser does not support the audio element.
-</audio>
 
 * Generate a 1080x720 pixel image:
 ```python
@@ -71,8 +62,6 @@ image = generate_image(1080, 720)
 save_image(image, "test_image.png")
 ```
 
-<img src="samples/test_image.png">
-
 * Generate a 5-second 1080x720 pixel video:
 ```python
 from urso.core.video_generator import generate_video, save_video
@@ -80,11 +69,6 @@ from urso.core.video_generator import generate_video, save_video
 video, _, _, _ = generate_video(5.0, 1080, 720, 30)
 save_video(video, "test_video.mp4", 30)
 ```
-
-<video width="1080" height="720" controls>
-    <source src="samples/test_video.mp4" type="video/mp4">
-    Your browser does not support the video tag.
-</video>
 
 ### Console App
 A command-line interface is available to generate individual content items. The console app allows users to specify the desired parameters and output file for each content type.
